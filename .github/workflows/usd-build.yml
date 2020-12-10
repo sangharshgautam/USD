@@ -19,4 +19,4 @@ jobs:
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
     - name: configure
       run: |
-       python build_scripts/build_usd.py /usr/local/USD --no-python
+       python build_scripts/build_usd.py USD-build --no-python
